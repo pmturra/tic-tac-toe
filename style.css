@@ -1,0 +1,19 @@
+
+.game-container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: hotpink;
+    color: white;
+    }
+
+.game-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid black;
+    border-radius: 5px;
+    font-size: 3em;
+}
